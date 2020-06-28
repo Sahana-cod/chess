@@ -1,0 +1,51 @@
+table {
+  position: absolute;
+  left: 10%;
+  width: 50%;
+  min-width: 400px;
+  top: 50px;
+  border-collapse : collapse;
+  background-color : #fff;
+  border-radius : 5px;
+}
+
+button {
+	width : 50px;
+	padding : 5px;
+	margin : 5px;
+	background-color : #32a852;
+}
+
+.grey {
+	background-color : #adad85;
+}
+
+.white{
+	background-color : #fff5cc;
+}
+
+td {
+  width : 5%;
+  height : 50px;
+  text-align : center;
+  cursor : pointer;
+  font-size : 30px;
+  vertical-align : middle;
+}
+
+.highlight {
+	background-color : yellow;
+}
+
+.result {
+	width : 300px;
+	position : absolute;
+	top : 510px;
+	left: 25%;
+	text-align : center;
+	border-radius : 5px;
+	font-size : 30px;
+	padding-bottom : 10px;
+	padding-top : 10px;
+	background-color : #cc7a00;
+}
