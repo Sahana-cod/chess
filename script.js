@@ -1586,7 +1586,7 @@ function togglehighlight(options) {
 		}
 	}else{
 	  if(typeof options == 'string'){
-		  if(mode == 'single' && ){
+		  if(mode == 'single'){
 			  if(document.getElementById(options).innerHTML == '' && pieces[selectedpiecetarget].type.indexOf('b') != -1){
 				  aimode(aiId.split(',')[0]+','+(parseInt(aiId.split(',')[1])+1));
 			  }else{
